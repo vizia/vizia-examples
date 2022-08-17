@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    canvas {
+        padding: 0;
+        margin: auto;
+        display: block;
+        width: 800px;
+    }
+  </style>
+  
+
+<link rel="preload" href="/vizia-examples-b8fd723d37443918_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/vizia-examples-b8fd723d37443918.js"></head>
+
+<body>
+  <canvas id="win" width="800px" height="600px"></canvas>
+  <script type="module">
+    import init from "./vizia_demo.js";
+    window.addEventListener("load", () => {
+      init();
+    });
+  </script>
+
+
+<script type="module">import init from '/vizia-examples-b8fd723d37443918.js';init('/vizia-examples-b8fd723d37443918_bg.wasm');</script></body></html>
