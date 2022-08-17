@@ -1,2 +1,2 @@
-/localization/target
-/localization/Cargo.lock
+/target
+Cargo.lock
