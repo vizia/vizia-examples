@@ -1241,7 +1241,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('vizia-examples-377652b78cdbe4b7_bg.wasm', import.meta.url);
+        input = new URL('vizia_examples-dac708863cf86e19_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
